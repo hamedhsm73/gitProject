@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-25T14:04:09.042Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="vf-j1DEa5yOGbi5QIT_o" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-25T15:20:00.891Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="txHsYMNM-Ufmh9T7gw4v" version="14.4.2" type="github">
   <diagram id="xPw5QtZHc4XsQHT624GE" name="Page-1">
-    <mxGraphModel dx="1021" dy="1743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1447" dy="1982" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -103,7 +103,7 @@
         <mxCell id="qiLAWbWiz7QlKXH0jE0X-46" value="hotels" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="589.9999999999999" y="440" width="160" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="qiLAWbWiz7QlKXH0jE0X-47" value="agencyId&#xa;perName&#xa;engName&#xa;cityId&#xa;bedTypeId&#xa;status&#xa;description&#xa;website&#xa;hotelGroupId" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="qiLAWbWiz7QlKXH0jE0X-46" vertex="1">
+        <mxCell id="qiLAWbWiz7QlKXH0jE0X-47" value="agencyId&#xa;perName&#xa;engName&#xa;cityId&#xa;bedTypeId&#xa;status&#xa;hotelCatId&#xa;description&#xa;website&#xa;hotelGroupId" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="qiLAWbWiz7QlKXH0jE0X-46" vertex="1">
           <mxGeometry y="30" width="160" height="170" as="geometry" />
         </mxCell>
         <mxCell id="qiLAWbWiz7QlKXH0jE0X-48" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmany;" parent="1" source="qiLAWbWiz7QlKXH0jE0X-30" target="qiLAWbWiz7QlKXH0jE0X-47" edge="1">
@@ -121,7 +121,7 @@
         <mxCell id="qiLAWbWiz7QlKXH0jE0X-52" value="hotelCategories" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="560" y="725" width="160" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="qiLAWbWiz7QlKXH0jE0X-53" value="hotelId&#xa;services&#xa;stars&#xa;facilityId&#xa;menuHotelId" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="qiLAWbWiz7QlKXH0jE0X-52" vertex="1">
+        <mxCell id="qiLAWbWiz7QlKXH0jE0X-53" value="services&#xa;stars&#xa;facilityId&#xa;menuHotelId" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="qiLAWbWiz7QlKXH0jE0X-52" vertex="1">
           <mxGeometry y="30" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="qiLAWbWiz7QlKXH0jE0X-55" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="qiLAWbWiz7QlKXH0jE0X-53" edge="1">
